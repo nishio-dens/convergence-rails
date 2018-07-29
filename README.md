@@ -2,6 +2,8 @@
 
 Convergence for Rails
 
+[![Gem Version](https://badge.fury.io/rb/convergence-rails.svg)](https://badge.fury.io/rb/convergence-rails)
+
 ## Installation
 
 Add this line to your application's Gemfile:
