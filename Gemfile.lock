@@ -1,0 +1,44 @@
+PATH
+  remote: .
+  specs:
+    convergence-rails (0.1.0)
+      convergence
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    convergence (0.2.6)
+      diff-lcs
+      diffy
+      mysql2
+      slop (~> 3.6)
+    diff-lcs (1.3)
+    diffy (3.2.1)
+    mysql2 (0.5.2)
+    rake (10.5.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  convergence-rails!
+  rake (~> 10.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   1.16.0
