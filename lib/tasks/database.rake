@@ -6,13 +6,13 @@ namespace :db do
   end
 
   task apply: :dump_config do
-    sh "bundle exec convergence -c #{Rails.root}/config/dev_database.yml -i #{Rails.root}/db/schema/schema.rb --apply"
+    sh "bundle exec convergence apply #{Rails.root}/db/schema/schema.rb -c #{Rails.root}/config/dev_database.yml"
   end
 
   task migrate: :apply
 
   task dryrun: :dump_config do
-    sh "bundle exec convergence -c #{Rails.root}/config/dev_database.yml -i #{Rails.root}/db/schema/schema.rb --dryrun"
+    sh "bundle exec convergence apply #{Rails.root}/db/schema/schema.rb -c #{Rails.root}/config/dev_database.yml --dry-run"
   end
 
   task :overhaul do
