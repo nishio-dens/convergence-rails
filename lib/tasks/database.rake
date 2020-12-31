@@ -1,7 +1,7 @@
 namespace :db do
   task dump_config: :environment do
     File.open("#{Rails.root}/config/dev_database.yml", "w") do |f|
-      f.write ActiveRecord::Base.configurations[Rails.env].to_yaml
+      f.write ActiveRecord::Base.configurations[Rails.env].deep_stringify_keys.to_yaml
     end
   end
 
