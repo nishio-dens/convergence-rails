@@ -35,7 +35,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler
   convergence-rails!
   rake (~> 13.0)
   rspec (~> 3.0)
