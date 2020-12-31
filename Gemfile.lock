@@ -15,7 +15,7 @@ GEM
     diff-lcs (1.4.4)
     diffy (3.4.0)
     mysql2 (0.5.3)
-    rake (10.5.0)
+    rake (13.0.3)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -37,8 +37,8 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   convergence-rails!
-  rake (~> 10.0)
-  rspec (~> 3.0)
+  rake
+  rspec
 
 BUNDLED WITH
    1.17.1
