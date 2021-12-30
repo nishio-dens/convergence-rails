@@ -1,3 +1,10 @@
+## Convergence 0.3.1 (December 31, 2021) ##
+
+* Change ActiveRecord::Base to Rails.application.config.database_configuration (PR: #7)
+
+  *nishio-dens*
+
+
 ## Convergence 0.3.0 (December 31, 2020) ##
 
 * Update dependent Gem (PR: #4, #5)
