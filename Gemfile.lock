@@ -13,7 +13,7 @@ GEM
       mysql2
       thor
     diff-lcs (1.4.4)
-    diffy (3.4.0)
+    diffy (3.4.2)
     mysql2 (0.5.3)
     rake (13.0.3)
     rspec (3.10.0)
